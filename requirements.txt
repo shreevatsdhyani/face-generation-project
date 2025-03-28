@@ -1,0 +1,11 @@
+ torch==2.1.0
+torchvision
+timm
+wandb
+numpy
+scipy
+scikit-learn
+matplotlib
+opencv-python
+pyyaml
+pytest

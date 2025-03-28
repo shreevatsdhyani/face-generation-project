@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore dataset (if too large)
+dataset/
+*.zip
+*.tar.gz
+
+# Ignore model weights
+*.pth
+*.pt
+
+# Ignore logs & temp files
+wandb/
+*.log
+*.tmp
+.DS_Store
+
+# Ignore Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
